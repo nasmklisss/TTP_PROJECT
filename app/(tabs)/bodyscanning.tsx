@@ -28,9 +28,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     gap: 20,
+    paddingTop: 40,
   },
   title: {
-    fontSize: 28,
+    fontSize: 23,
     fontWeight: 'bold',
     marginBottom: 10,
   },

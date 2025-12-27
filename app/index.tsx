@@ -5,7 +5,7 @@ import { ThemedView } from '@/components/ThemedView';
 
 export default function HomeScreen() {
   const handleGetStarted = () => {
-    router.push('/(auth)/login');
+    router.push('/mainpage');
   };
 
   return (
@@ -18,15 +18,16 @@ export default function HomeScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({  
   container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    gap: 20,
+    gap: 35,
+    paddingTop: 50,
   },
   title: {
-    fontSize: 32,
+    fontSize: 25,
     fontWeight: 'bold',
   },
   button: {
